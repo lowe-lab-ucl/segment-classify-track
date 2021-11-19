@@ -4,7 +4,7 @@ This repository contains all the steps necessary for the annotation and tracking
 
 Each step has an associated Jupyter notebook which should be run in the following sequential order:
 
-1. Image alignment (align.ipynb - if problematic, this step can be done using Fiji linear stack alignment with SIFT) 
+1. Image alignment (align.ipynb)
 2. Cellular segmentation (cellpose_segmentation.ipynb/stardist_segmentation.ipynb)
 3. Phenotype classification (cellx_classify.ipynb)
 4. Object tracking (btrack_tracking.ipynb)
