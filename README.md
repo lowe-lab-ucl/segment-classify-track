@@ -6,9 +6,8 @@ Each step has an associated Jupyter notebook which should be run in the followin
 
 1. Image alignment (align.ipynb)
 2. Cellular segmentation (cellpose_segmentation.ipynb/stardist_segmentation.ipynb)
-3. Phenotype classification (cellx_classify.ipynb)
-4. Object tracking (btrack_tracking.ipynb)
-5. Viewer (napari_viewer.ipynb)
+3. Phenotype classification and object tracking (cellx_classify_and_track.ipynb)
+4. Viewer (napari_viewer.ipynb)
 
 The repository is designed to work with the raw output of any timelapse microscopy data set that is structured with the following path pattern:
 
